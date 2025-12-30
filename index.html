@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 – Page in Progress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grid-bg"></div>
+  <div class="shape shape-circle"></div>
+  <div class="shape shape-square"></div>
+  <div class="shape shape-ring"></div>
+  <div class="shape-diagonal"></div>
+
+  <main class="wrapper">
+    <div class="art">
+      <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="clip404">
+            <text x="50%" y="52%" text-anchor="middle" font-family="Space Grotesk, system-ui" font-weight="700" font-size="190">404</text>
+          </clipPath>
+        </defs>
+
+        <ellipse class="soft-glow" cx="400" cy="160" rx="280" ry="130"></ellipse>
+
+        <text x="50%" y="52%" text-anchor="middle" font-family="Space Grotesk, system-ui" font-weight="700" font-size="190" class="outline">404</text>
+
+        <g clip-path="url(#clip404)" class="fill-lines">
+          <line x1="-50" y1="40"  x2="850" y2="40"  />
+          <line x1="-50" y1="65"  x2="850" y2="65"  />
+          <line x1="-50" y1="90"  x2="850" y2="90"  />
+          <line x1="-50" y1="115" x2="850" y2="115" />
+          <line x1="-50" y1="140" x2="850" y2="140" />
+          <line x1="-50" y1="165" x2="850" y2="165" />
+          <line x1="-50" y1="190" x2="850" y2="190" />
+          <line x1="-50" y1="215" x2="850" y2="215" />
+          <line x1="-50" y1="240" x2="850" y2="240" />
+          <line x1="-50" y1="265" x2="850" y2="265" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="subtitle">This page is currently under construction</div>
+
+    <div class="actions">
+      <a href="/" class="btn btn-primary">← Go Home</a>
+      <button class="btn btn-outline" id="btn-back">⟲ Go Back</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
