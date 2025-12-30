@@ -11,7 +11,7 @@ This page is intended for use as:
 
 ---
 
-## 🎨 Design Style
+## Design Style
 
 - Black & white only  
 - Geometric background grid  
@@ -24,7 +24,7 @@ Animation cycle duration: **4 seconds**
 
 ---
 
-## 🧩 File Structure
+## File Structure
 
 ```text
 /
